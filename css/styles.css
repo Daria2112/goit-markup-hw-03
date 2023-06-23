@@ -132,15 +132,21 @@ text-align: center;
 letter-spacing: 0.02em;
 line-height: 1.07;
 color: var(--title-color);
-
+max-width: 496px;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 48px;
 }
 .hero-button {
+display: block;
 background-color: var(--accent-color);
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--title-color);
 cursor: pointer;
+padding: 16px  32px;
+margin: 0% auto;
 }
 
 .hero-button:hover, .hero-button:focus {
@@ -149,6 +155,7 @@ background-color: var(--link-color);
 .goal-section {
 padding-top: 120px;
 padding-bottom: 60px;
+}
 
 .goal-list {
 display: flex;
@@ -161,7 +168,6 @@ width: 264px;
 }
 
 .directions-section {
-display: flex;
 padding-top: 60px;
 padding-bottom: 120px;
 }
@@ -179,6 +185,7 @@ letter-spacing: 0.02em;
 color: var(--title-color-black);
 display: flex;
 justify-content: space-between;
+margin-top: 32px;
 margin-bottom: 8px;
 }
 
@@ -188,6 +195,15 @@ letter-spacing: 0.02em;
 color: var(--grey-color);
 }
 
+.team-card-text {
+text-align: center;
+}
+
+.team-card-title {
+text-align: center;    
+}
+
+
 .team-section {
 background-color: var(--accent-color-white);
 padding-top: 120px;
@@ -195,6 +211,8 @@ padding-bottom: 120px;
 }
 .team-list {
 display: flex;
+justify-content: space-between;
+gap: 24px;
 }
 .section {
 background-color: var(--title-color);
@@ -204,7 +222,6 @@ background-color: var(--title-color);
 .products-section {
 padding-top: 96px;
 padding-bottom: 120px;
-
 }
 
 .subtitle {
@@ -221,10 +238,13 @@ margin-bottom: 72px;
 padding-bottom: 100px;
 padding-top: 100px;
 }
+
 .footer-text {
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--accent-color-white);
+max-width: 264px;
+margin-top: 17.5px;
 }
 .portfolio-button {
 font-weight: 500;
@@ -235,15 +255,19 @@ color: var(--accent-color);
 background-color: var(--accent-color-white);
 border: 1px solid var(--border-color);
 cursor: pointer;
-
+padding: 12px 24px;
+margin-bottom: 72px;
 }
+
 .portfolio-button:hover, .portfolio-button:focus {
 color: var(--title-color);
 background-color: var(--link-color);
 }
+
 .list {
 list-style: none;
 }
+
 .team-card {
 background-color: var(--title-color);
 }
@@ -255,6 +279,7 @@ background-color: var(--title-color);
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -268,3 +293,28 @@ background-color: var(--title-color);
     overflow: hidden;
 }
 
+.products-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.products-item-list {
+display: flex;
+gap: 48px 24px;
+flex-wrap: wrap;
+}
+
+.products-item {
+margin: 32px 24px;
+}
+
+.card-team-description {
+padding: 32px 16px;
+}
+
+.card-product-description {
+padding: 32px 0;
+border: 1px solid var(--cornflower, #E7E9FC);
+border-top: none;
+}
