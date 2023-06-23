@@ -51,6 +51,7 @@ color: var(--grey-color);
 .header {
 padding-top: 24px;
 padding-bottom: 24px;
+border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
 .header-nav {
@@ -66,6 +67,9 @@ font-size: 18px;
  line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;  
+margin-right: 76px;
+display: inline-block;
+margin-bottom: 16px;
 
 }
 .link {
@@ -73,7 +77,6 @@ text-decoration: none;
 }
 .logo {
 color: var(--title-color-black);
-margin-right: 76px;
 }
 .logo-accent {
 color: var(--accent-color);
@@ -101,6 +104,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--title-color-black);
+padding: 24px 0;
 }
 
 .header-link:hover, .header-link:focus {
@@ -145,16 +149,19 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: var(--title-color);
 cursor: pointer;
+min-width: 169px;
+height: 56px;
 padding: 16px  32px;
 margin: 0% auto;
+border: none;
+border-radius: 4px;
 }
 
 .hero-button:hover, .hero-button:focus {
 background-color: var(--link-color);
 }
 .goal-section {
-padding-top: 120px;
-padding-bottom: 60px;
+padding: 120px 0;
 }
 
 .goal-list {
@@ -162,14 +169,14 @@ display: flex;
 justify-content: space-between;
 align-items: start;
 margin: 0 auto;
+gap: 24px;
 }
 .goal-item {
 width: 264px;
 }
 
 .directions-section {
-padding-top: 60px;
-padding-bottom: 120px;
+padding-bottom: 120px
 }
 
 .directions-list {
@@ -254,11 +261,13 @@ border: 1px solid var(--border-color);
 cursor: pointer;
 padding: 12px 24px;
 margin-bottom: 72px;
+border-radius: 4px;
 }
 
 .portfolio-button:hover, .portfolio-button:focus {
 color: var(--title-color);
 background-color: var(--link-color);
+border: 1px solid transparent;
 }
 
 .list {
@@ -294,6 +303,7 @@ background-color: var(--title-color);
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .products-item-list {
@@ -308,10 +318,11 @@ margin: 32px 24px;
 
 .card-team-description {
 padding: 32px 16px;
+border-radius: 0px 0px 4px 4px;
 }
 
 .card-product-description {
-padding: 32px 0;
+padding: 32px 16;
 border: 1px solid var(--cornflower, #E7E9FC);
 border-top: none;
 }
