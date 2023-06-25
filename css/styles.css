@@ -105,6 +105,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--title-color-black);
 padding: 24px 0;
+display: block;
 }
 
 .header-link:hover, .header-link:focus {
@@ -276,6 +277,8 @@ list-style: none;
 
 .team-card {
 background-color: var(--title-color);
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
 }
 
 .container {
@@ -312,17 +315,22 @@ gap: 48px 24px;
 flex-wrap: wrap;
 }
 
-.products-item {
+.products-item-link {
 margin: 32px 24px;
 }
 
 .card-team-description {
 padding: 32px 16px;
-border-radius: 0px 0px 4px 4px;
 }
 
 .card-product-description {
-padding: 32px 16;
+padding: 32px 16px;
 border: 1px solid var(--cornflower, #E7E9FC);
 border-top: none;
+}
+.directions-item {
+flex-basis: calc((100% - 2 * 24px) / 3);
+}
+.products-item {
+width: calc((100% - 48px) / 3);
 }
