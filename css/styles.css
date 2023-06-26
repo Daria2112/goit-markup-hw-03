@@ -49,8 +49,6 @@ color: var(--grey-color);
 }  
 
 .header {
-padding-top: 24px;
-padding-bottom: 24px;
 border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 
@@ -69,8 +67,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;  
 margin-right: 76px;
 display: inline-block;
-margin-bottom: 16px;
-
 }
 .link {
 text-decoration: none;
@@ -261,7 +257,6 @@ background-color: var(--accent-color-white);
 border: 1px solid var(--border-color);
 cursor: pointer;
 padding: 12px 24px;
-margin-bottom: 72px;
 border-radius: 4px;
 }
 
@@ -315,9 +310,6 @@ gap: 48px 24px;
 flex-wrap: wrap;
 }
 
-.products-item-link {
-margin: 32px 24px;
-}
 
 .card-team-description {
 padding: 32px 16px;
