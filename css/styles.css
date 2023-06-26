@@ -68,6 +68,10 @@ text-transform: uppercase;
 margin-right: 76px;
 display: inline-block;
 }
+.footer-logo {
+margin-bottom: 16px;
+}
+
 .link {
 text-decoration: none;
 }
@@ -309,7 +313,6 @@ display: flex;
 gap: 48px 24px;
 flex-wrap: wrap;
 }
-
 
 .card-team-description {
 padding: 32px 16px;
